@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 import { testimonials } from "@/data";
@@ -109,6 +108,7 @@ export const InfiniteMovingCards = ({
 
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <div className="me-3">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     height={50}
                     width={50}
